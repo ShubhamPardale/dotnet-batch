@@ -1,6 +1,7 @@
 using System;
+namespace a;
 class newfile1{
-satic public void Main()
+    static public void Main()
     {
         byte[]B={2,4,6,8,10};
         Console.WriteLine("BArray is :{0}",BitConverter.ToString(B));
