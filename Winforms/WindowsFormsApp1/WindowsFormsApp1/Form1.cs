@@ -21,5 +21,10 @@ namespace WindowsFormsApp1
         {
             lblHelloWorld.Text = "Hello World!";
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
