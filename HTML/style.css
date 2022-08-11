@@ -1,0 +1,21 @@
+
+body
+{
+background-color:blue;
+background-image: url("im2.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: scroll;
+}
+
+img.image
+{
+    border-style: double;
+    border-width: thick;
+}
+
+input.btn
+{
+    background-color: green;
+    color: white;
+}

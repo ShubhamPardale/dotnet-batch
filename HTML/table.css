@@ -1,0 +1,47 @@
+body
+{
+background-image: url("pw.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: scroll;
+}
+h3{
+    border-style: double;
+    border-width: thick;
+    width:49%;
+    border-color: gray;
+    padding-left: 0.2cm;
+}
+table
+ {
+    font-family: arial, sans-serif;
+    padding-top: 0.2cm;
+    padding-left: 0.2cm;
+    padding-right: 0.2cm;
+    padding-bottom: 0.2cm;
+    border-style: double;
+    border-width: thick;
+    width: 50%;
+  }
+  th{
+    background-color: rgb(240, 9, 9);
+    color: white;
+  }
+  td{
+    background-color: rgb(44, 44, 209);
+    color: white;
+  }
+  td, th {
+    border: 1px solid #131212;
+    text-align: left;
+    padding: 8px;
+  }
+
+input.Submit{
+    background-color: green;
+    color: white;
+  }
+button.cancel{
+    background-color: red;
+    color: white;
+}
