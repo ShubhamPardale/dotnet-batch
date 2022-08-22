@@ -1,4 +1,5 @@
 import React from "react";
+import './App.css'
 class Car extends React.Component{
     constructor(props){
         super(props);
@@ -9,7 +10,7 @@ class Car extends React.Component{
     render(){
         return(
 
-            <div>
+            <div className='App-header'>
                 <h1>My Car "{this.state.brand}" and model "{this.state.model}"</h1>
             </div>
 

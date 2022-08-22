@@ -3,14 +3,19 @@ import './App.css';
 //import ReactDOM from 'react-dom/client';
 
 function App(){
-  return <div>
+  return( 
+  <div className='App-header'>
     <AppChild name="Matt" />
     </div>
+  );
 }
 function AppChild(props){
-  return <span>
+  return(
+     <h1>
       My name is {props.name}
-    </span>
+    </h1>
+  );
 }
+
 //ReactDOM.render(<App />, document.getElementById('app'));
 export default App;
