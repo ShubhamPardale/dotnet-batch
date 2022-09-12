@@ -1,0 +1,8 @@
+C:\Users\shubham.pardale\Documents\GitHub\Simplilearn\WebRefrence\WebRefrence\bin\Debug\WebRefrence.exe.config
+C:\Users\shubham.pardale\Documents\GitHub\Simplilearn\WebRefrence\WebRefrence\bin\Debug\WebRefrence.exe
+C:\Users\shubham.pardale\Documents\GitHub\Simplilearn\WebRefrence\WebRefrence\bin\Debug\WebRefrence.pdb
+C:\Users\shubham.pardale\Documents\GitHub\Simplilearn\WebRefrence\WebRefrence\obj\Debug\WebRefrence.csproj.AssemblyReference.cache
+C:\Users\shubham.pardale\Documents\GitHub\Simplilearn\WebRefrence\WebRefrence\obj\Debug\WebRefrence.csproj.SuggestedBindingRedirects.cache
+C:\Users\shubham.pardale\Documents\GitHub\Simplilearn\WebRefrence\WebRefrence\obj\Debug\WebRefrence.csproj.CoreCompileInputs.cache
+C:\Users\shubham.pardale\Documents\GitHub\Simplilearn\WebRefrence\WebRefrence\obj\Debug\WebRefrence.exe
+C:\Users\shubham.pardale\Documents\GitHub\Simplilearn\WebRefrence\WebRefrence\obj\Debug\WebRefrence.pdb
