@@ -2,16 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 //import App from './App';
-import Phone1 from './Phone1';
-import Phones from './Phones';
 import reportWebVitals from './reportWebVitals';
+import School from './School';
+import School1 from './School1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    
-    <Phones />
-    <Phone1 />
+    <School />
+    <School1/>
   </React.StrictMode>
 );
 

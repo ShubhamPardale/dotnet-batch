@@ -1,4 +1,6 @@
 import React from "react";
+import './Phone.css';
+
 class Phones extends React.Component{
     constructor(props){
         super(props);
@@ -10,7 +12,7 @@ class Phones extends React.Component{
         return(
 
             <div >
-                <h3>Your Phone brand is "{this.state.brand}" and model "{this.state.model}" and with {this.state.OS} operating system.</h3>
+                <h2>Your Phone brand is "{this.state.brand}" and model "{this.state.model}" and with {this.state.OS} operating system.</h2>
             </div>
 
         );
