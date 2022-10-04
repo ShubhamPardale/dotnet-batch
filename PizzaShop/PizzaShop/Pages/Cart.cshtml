@@ -1,0 +1,40 @@
+﻿@page
+@model PizzaShop.Pages.CartModel
+@{
+    ViewData["Title"] = "Cart";
+}
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Image</th>
+      <th scope="col">Name</th>
+      <th scope="col">Type</th>
+      <th scope="col">Quantity</th>
+      <th scope="col">Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td style="width:250px;"><img  src="https://www.pngall.com/wp-content/uploads/4/Pepperoni-Dominos-Pizza-PNG-Free-Download.png" alt="Card image cap"  style=" width:150px;"></td>
+      <td>FarmHouse </td>
+      <td>Veg</td>
+      <td><span style="margin-left:20px;">2</span></td>
+      <td style="color:green;"><b>Rs 349</b></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td style="width:250px;"><img class="card-img-top" src="https://www.pngall.com/wp-content/uploads/4/Pepperoni-Dominos-Pizza-PNG-Free-Download.png" alt="Card image cap"  style=" width:150px;"></td>
+      <td>Thornton</td>
+      <td>Non Veg</td>
+      <td><span style="margin-left:20px;">1</span></td>
+      <td style="color:green;"><b> Rs 349</b></td>
+    </tr>
+  </tbody>
+</table>
+<h4 style="text-align: right;padding-right: 100px;">Total Price: Rs 1047</h4>
+
+<h5 style="text-align: right;padding-right: 105px;"><button id="placeorder" class="btn-success"><a class="nav-link text-light" asp-area="" asp-page="/Order">Place Order</a></button></h5>

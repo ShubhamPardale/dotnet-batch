@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DQH8d2xsMNBh/m0uCf+dKKQm1LuyNuQq2MIqyLInfkGcms8OuFofom7+iKtotxyddGuTyzRgqBHCqOMc7zc22g==",
+  "success": true,
+  "projectFilePath": "D:\\Github\\PizzaShop\\PizzaShop\\PizzaShop.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shubham.pardale\\.nuget\\packages\\bootstrap\\5.2.1\\bootstrap.5.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
