@@ -26,7 +26,7 @@ namespace SpecFlowProject4.StepDefinitions
         public void GivenIHaveOpenedTheWebsiteUrl()
         {
 
-            chromedriver.Navigate().GoToUrl("https://localhost:7299/");
+            chromedriver.Navigate().GoToUrl("https://joespizza20221007143859.azurewebsites.net");
         }
 
         [When(@"I will click on Buy Now of a specific pizza")]
