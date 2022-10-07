@@ -14,20 +14,12 @@ namespace JoesPizza.Pages
         {
             _logger = logger;
         }
-        //public double checkout { get; set; }
-
-        //public double Total { get; set; }
-
 
         public List<Item> cart { get; set; }
         public double Total { get; set; }
 
-        //(HttpContext.Session, "Checkout");
         public void OnGet()
         {
-            //checkout = SessionHelper.GetObjectFromJson<double>(HttpContext.Session, "checkout");
-
-            //Total = checkout.Sum(i => i.Product.Price * i.Quantity);
             cart = SessionHelper.GetObjectFromJson<List<Item>>(HttpContext.Session, "cart");
             if (cart != null)
             { Total = cart.Sum(i => i.Product.Price * i.Quantity); }
