@@ -1,0 +1,56 @@
+﻿@page
+@model CartModel
+@{
+    ViewData["Title"] = "Cart";
+}
+<h1>@ViewData["Title"]</h1>
+
+<body style="background-color:#e9e7e7;">
+    @if (Model.cart != null)
+    {
+        <form method="post" asp-page="cart" asp-page-handler="update">
+            <table class="table table-bordered table-striped" style="width:80%" align="center">
+                <tr align="center" style="background:#83aced;">
+                    <th> </th>
+                    <th>Id</th>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Unit Price</th>
+                    <th>Quantity <br /> <input type="submit" value="Update" /></th>
+                    <th>Sub Total</th>
+                </tr>
+                @foreach (var item in Model.cart)
+                {
+                    <tr align="center" style="background:#bcc8db;" >
+                        <td align="center" style="padding-top: 60px;">
+                            <a  class="btn btn-danger" asp-page="cart" asp-page-handler="delete" asp-route-id="@item.Product.Id">Cancel</a>
+                        </td>
+                        <td style="padding-top: 60px;">@item.Product.Id</td>
+                        <td ><img src="~/images/@item.Product.Photo" width="140" height="140" /></td>
+                        <td style="padding-top: 60px;">@item.Product.Name</td>
+                        <td style="padding-top: 60px;">RS @item.Product.Price</td>
+                        <td style="padding-top: 60px;"><input type="number" name="quantities" value="@item.Quantity" min="1" style="width: 50px;" /></td>
+                        <td style="padding-top: 60px;">
+                            Rs @(item.Product.Price * item.Quantity)
+                        </td>
+                    </tr>
+                }
+                <tr style="background:#83aced;">
+                    <td colspan="6" align="right">Total</td>
+                    <td align="center">Rs @Model.Total</td>
+                </tr>
+            </table>
+        </form>
+
+        <div align="right">
+            <h1 align="center"><a class="btn btn-success" style="margin:5px" asp-page="Checkout">Pay Now</a></h1>
+            <br/>
+            <h1 align="start"><a class="btn btn-primary" style="margin:5px" asp-page="index">Back to Menu</a></h1>
+            <br />
+        </div>
+    }
+    else
+    {
+        <h5> No items added in the Cart! </h5>
+    }
+</body>
