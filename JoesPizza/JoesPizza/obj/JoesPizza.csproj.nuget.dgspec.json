@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\JoesPizza\\JoesPizza\\JoesPizza.csproj": {}
+    "D:\\Github\\dotnet-batch\\JoesPizza\\JoesPizza\\JoesPizza.csproj": {}
   },
   "projects": {
-    "D:\\Github\\JoesPizza\\JoesPizza\\JoesPizza.csproj": {
+    "D:\\Github\\dotnet-batch\\JoesPizza\\JoesPizza\\JoesPizza.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\JoesPizza\\JoesPizza\\JoesPizza.csproj",
+        "projectUniqueName": "D:\\Github\\dotnet-batch\\JoesPizza\\JoesPizza\\JoesPizza.csproj",
         "projectName": "JoesPizza",
-        "projectPath": "D:\\Github\\JoesPizza\\JoesPizza\\JoesPizza.csproj",
+        "projectPath": "D:\\Github\\dotnet-batch\\JoesPizza\\JoesPizza\\JoesPizza.csproj",
         "packagesPath": "C:\\Users\\shubham.pardale\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\JoesPizza\\JoesPizza\\obj\\",
+        "outputPath": "D:\\Github\\dotnet-batch\\JoesPizza\\JoesPizza\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shubham.pardale\\AppData\\Roaming\\NuGet\\NuGet.Config",

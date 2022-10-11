@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "sid+H3QsMGCHpqqEDw56+XpLheeN2mh3W5+v92Q562Q=",
+  "Source": "EhealthcareWebsite",
+  "BasePath": "_content/EhealthcareWebsite",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
