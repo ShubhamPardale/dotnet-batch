@@ -69,5 +69,33 @@ namespace EhealthcareWebsite.Controllers
             }
             return new JsonResult("Added");
         }
+
+
+        [HttpDelete]
+        public JsonResult Delete(int id)
+        {
+            string query = @"
+                            delete from dbo.[User]
+                            where user_id=@user_id
+                           ";
+
+            DataTable dt = new DataTable();
+            string datasource = _configuration1.GetConnectionString("Ehealthcon");
+            SqlDataReader reader;
+            using (SqlConnection con = new SqlConnection(datasource))
+            {
+                con.Open();
+                using (SqlCommand cmd = new SqlCommand(query, con))
+                {
+                    cmd.Parameters.AddWithValue("@user_id", id);
+                    reader = cmd.ExecuteReader();
+                    dt.Load(reader);
+                    con.Close();
+                }
+            }
+            return new JsonResult("Deleted");
+        }
+
+
     }
 }

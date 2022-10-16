@@ -24,6 +24,7 @@ namespace EhealthcareWebsite.Controllers
         {
             string query = @"
                             select * from dbo.Medicines
+                            
                            ";
 
             DataTable dt = new DataTable();
@@ -41,6 +42,7 @@ namespace EhealthcareWebsite.Controllers
             }
             return new JsonResult(dt);
         }
+
 
         [HttpPost]
         public JsonResult Post(Medicine med)
